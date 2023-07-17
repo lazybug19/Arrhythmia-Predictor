@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+<form action="/doctor" method="POST">
+  <div class="form-group">
+    <label for="email">email of patient</label>
+    <input type="email" class="form-control" name="useremail">
+  </div>
+  <button type="submit" class="btn btn-dark">Find the report</button>
+</form>
+
+<%- include('partials/footer') %>

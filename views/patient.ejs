@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+<form action="/patient" method="POST" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="label-data">upload json heart data</label>
+    <input type="file" class="form-control" name="data">
+  </div>
+  <button type="submit" class="btn btn-dark">upload the report</button>
+</form>
+
+<%- include('partials/footer') %>
