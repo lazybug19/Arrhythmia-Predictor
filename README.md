@@ -1,2 +1,2 @@
-# ECGMonitor
-Project to collect, analyse , store and transmit ecg data to doctors for final evaluation skipping the need for appointments and allowing constant surveillance on heart patients.
+# Remote Cardiac Monitoring System
+System for early detection of arrhythmia by using an electrocardiogram like data acquisition model and irregularity prediction using classification models (based on decision trees), backed by full-stack web application to collect, analyse , store and transmit data to doctors for final evaluation without the need for appointments and allowing constant surveillance on heart patients.
