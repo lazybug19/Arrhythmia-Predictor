@@ -1,19 +1,18 @@
 # Remote Arrhythmia Diagnosis
 
-A remote cardiac monitoring system for early detection of arrhythmia by using an electrocardiogram like data acquisition model and irregularity prediction using classification models (based on decision trees), backed by full-stack web application to collect, analyse, store and transmit data to doctors for final evaluation without the need for appointments and allowing constant surveillance on heart patients.
-The system starts by collecting ECG signals from the patient by using a device made by AD-8232. These signals are then converted into Digital form by using a Analog to Digital Convertor. This data is then processed in MATLAB to calculate entities like speed of the wave, amplitude of the wave and the R-R wave distance, which in turn are used as input for the Machine Learning model which we have trained to detect arrythmia. This model is trained using Classification Learner in MATLAB and uses the Decision Tree training model. Once processed, if there is any abnormality is found, the same is notfied to the patient and the doctor through a web software that we have created using JavaScript.
+A remote cardiac monitoring system for early diagnosis of arrhythmia by using an electrocardiogram-like data acquisition model and irregularity prediction based on decision trees using CART algorithms and backed by a full-stack web application to collect, analyze, store, and transmit data to doctors for final evaluation without the need for appointments and allowing constant surveillance on heart patients.
 
-## Sensors/Tech Used
+## Tech Used
 <ul>
-  <li> LM-35 Temperature Sensor </li>
-  <li> Pulse Rate Sensor </li>
-  <li> Flex Sensor LCD </li>
-  <li> Arduino Wifi </li>
-  <li> <a href="https://blynk.io/getting-started"> Blynk</a> </li>
-  <li> <a href="https://docs.arduino.cc/software/ide/"> Arduino IDE </a> </li>
+  <li> <a href="https://www.mathworks.in/help/matlab/">MATLAB </a></li>
+  <li> <a href="https://www.mathworks.com/help/stats/">Statistics and ML Toolbox</a> </li>
+  <li> <a href="https://expressjs.com/en/5x/api.html"> Express.js </a></li>
+  <li> <a href="https://www.tensorflow.org/api_docs">TensorFlow</a> </li>
+  <li> LTSpice </li>
 </ul>
 
-![User Interface](https://github.com/lazybug19/Arrhythmia-Predictor/blob/main/cardio.jpeg)
+## User Interface
+![](https://github.com/lazybug19/Arrhythmia-Predictor/blob/main/cardio.jpeg)
 
 
 
