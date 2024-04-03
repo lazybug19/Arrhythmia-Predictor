@@ -13,7 +13,7 @@ The system starts by collecting ECG signals from the patient by using a device m
   <li> <a href="https://docs.arduino.cc/software/ide/"> Arduino IDE </a> </li>
 </ul>
 
-### [User Interface](https://www.youtube.com/watch?v=HBn5S1mKwv4)
+### [User Interface](https://github.com/lazybug19/Arrhythmia-Predictor/blob/main/cardio.jpeg)
 
 
 
